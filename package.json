@@ -1,0 +1,40 @@
+{
+    "name" : "rewire-webpack",
+    "version" : "0.0.0",
+    "description" : "Dependency injection for webpack bundles",
+    "keywords" : [
+        "dependency",
+        "injection",
+        "mock",
+        "unit",
+        "test",
+        "leak",
+        "inspect"
+    ],
+    "author" : {
+        "name" : "Johannes Ewald",
+        "email" : "mail@johannesewald.de"
+    },
+    "main" : "lib/index.js",
+    "homepage": "https://github.com/jhnns/rewire-webpack",
+    "repository": "git://github.com/jhnns/rewire-webpack.git",
+    "engines" : {
+        "node" : "<0.9.x"
+    },
+    "dependencies": {
+        "enhanced-resolve": "0.5.x",
+        "rewire": "1.x"
+    },
+    "devDependencies": {
+        "mocha": "1.x",
+        "expect.js": "0.x",
+        "webpack": "0.9.x",
+        "css-loader": "0.5.x",
+        "style-loader": "0.5.x",
+        "mocha-loader": "0.5.x",
+        "chai": "1.5.x"
+    },
+    "scripts" : {
+        "test" : "node node_modules/mocha/bin/mocha -R spec"
+    }
+}
