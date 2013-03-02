@@ -28,6 +28,9 @@
         "enhanced-resolve": "0.5.x",
         "rewire": "1.x"
     },
+    "peerDependencies": {
+        "webpack": "0.9.x"
+    },
     "devDependencies": {
         "mocha": "1.x",
         "expect.js": "0.x",
