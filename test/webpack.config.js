@@ -1,4 +1,4 @@
-var RewirePlugin = require("../lib/RewirePlugin.js");
+var RewirePlugin = require("../");
 
 module.exports = {
     entry: "mocha!./webpack.test.js",
