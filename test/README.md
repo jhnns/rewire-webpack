@@ -6,7 +6,7 @@ Install the webpack dev server globally:
 npm install webpack-dev-server -g
 ```
 
-Then run the tests with:
+Then go to the test-folder and run:
 
 ```
 webpack-dev-server --colors --devtool eval
