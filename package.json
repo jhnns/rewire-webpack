@@ -1,6 +1,6 @@
 {
     "name" : "rewire-webpack",
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "description" : "Dependency injection for webpack bundles",
     "keywords" : [
         "dependency",
@@ -24,19 +24,17 @@
         "node" : "0.x"
     },
     "dependencies": {
-        "webpack": "0.9.x",
-        "enhanced-resolve": "0.5.x",
+        "webpack": "0.x",
+        "enhanced-resolve": "0.x",
         "rewire": "1.x"
-    },
-    "peerDependencies": {
-        "webpack": ">=0.9.x"
     },
     "devDependencies": {
         "mocha": "1.x",
         "expect.js": "0.x",
-        "mocha-loader": "0.5.x"
+        "mocha-loader": "0.x",
+        "webpack-dev-server": "0.x"
     },
-    "scripts" : {
-        "test" : "node node_modules/mocha/bin/mocha -R spec"
+    "scripts": {
+        "test": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./test/webpack.config.js"
     }
 }
