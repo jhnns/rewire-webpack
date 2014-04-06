@@ -1,4 +1,4 @@
 window.testEnv = "webpack";
 
 require("./shims.js");
-require("rewire/test/testModules/sharedTestCases.js");
+require("../node_modules/rewire/test/testModules/sharedTestCases.js");
