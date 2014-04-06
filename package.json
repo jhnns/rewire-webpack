@@ -24,7 +24,7 @@
         "node" : "0.x"
     },
     "dependencies": {
-        "webpack": "0.x",
+        "webpack": "1.x",
         "enhanced-resolve": "0.x",
         "rewire": "2.x"
     },
@@ -32,7 +32,7 @@
         "mocha": "1.x",
         "expect.js": "0.x",
         "mocha-loader": "0.x",
-        "webpack-dev-server": "0.x"
+        "webpack-dev-server": "1.x"
     },
     "scripts": {
         "test": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./test/webpack.config.js"
