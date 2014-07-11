@@ -24,7 +24,7 @@ var webpackConfig = {
 };
 ```
 
-After that you can use `rewire()` in your client-side bundles as usual. Checkout `test/README.md` and `test/webpack.config.js` for a real-world example with the [webpack-dev-server](https://github.com/webpack/webpack-dev-server).
+After that you can use `rewire()` in your client-side bundles as usual.
 
 <br />
 
