@@ -31,7 +31,7 @@
         "rewire": "^2.1.0"
     },
     "devDependencies": {
-        "mocha": "1.x",
+        "mocha": "2.x",
         "expect.js": "0.x",
         "mocha-loader": "0.x",
         "webpack-dev-server": "1.x",
