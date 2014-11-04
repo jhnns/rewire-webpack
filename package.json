@@ -1,6 +1,6 @@
 {
     "name" : "rewire-webpack",
-    "version" : "0.2.0",
+    "version" : "1.0.0",
     "description" : "Dependency injection for webpack bundles",
     "keywords" : [
         "dependency",
