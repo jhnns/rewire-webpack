@@ -28,7 +28,7 @@
         "enhanced-resolve": "0.x"
     },
     "peerDependencies": {
-        "rewire": "^2.1.0"
+        "rewire": "^2.1.3"
     },
     "devDependencies": {
         "mocha": "2.x",
