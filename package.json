@@ -35,7 +35,7 @@
         "expect.js": "0.x",
         "mocha-loader": "0.x",
         "webpack-dev-server": "1.x",
-        "rewire": "^2.1.0"
+        "rewire": "jhnns/rewire"
     },
     "scripts": {
         "test": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./test/webpack.config.js"
