@@ -1,43 +1,37 @@
 {
-    "name" : "rewire-webpack",
-    "version" : "1.0.0",
-    "description" : "Dependency injection for webpack bundles",
-    "keywords" : [
-        "dependency",
-        "injection",
-        "mock",
-        "unit",
-        "test",
-        "leak",
-        "webpack",
-        "browser",
-        "inspect"
-    ],
-    "author" : {
-        "name" : "Johannes Ewald",
-        "email" : "mail@johannesewald.de"
-    },
-    "main" : "lib/RewirePlugin.js",
-    "homepage": "https://github.com/jhnns/rewire-webpack",
-    "repository": "git://github.com/jhnns/rewire-webpack.git",
-    "engines" : {
-        "node" : "0.x"
-    },
-    "dependencies": {
-        "webpack": "1.x",
-        "enhanced-resolve": "0.x"
-    },
-    "peerDependencies": {
-        "rewire": "^2.1.3"
-    },
-    "devDependencies": {
-        "mocha": "2.x",
-        "expect.js": "0.x",
-        "mocha-loader": "0.x",
-        "webpack-dev-server": "1.x",
-        "rewire": "jhnns/rewire"
-    },
-    "scripts": {
-        "test": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./test/webpack.config.js"
-    }
+  "name": "rewire-webpack",
+  "version": "1.0.0",
+  "description": "Dependency injection for webpack bundles",
+  "keywords": [
+    "dependency",
+    "injection",
+    "mock",
+    "unit",
+    "test",
+    "leak",
+    "webpack",
+    "browser",
+    "inspect"
+  ],
+  "author": {
+    "name": "Johannes Ewald",
+    "email": "mail@johannesewald.de"
+  },
+  "main": "lib/RewirePlugin.js",
+  "homepage": "https://github.com/jhnns/rewire-webpack",
+  "repository": "git://github.com/jhnns/rewire-webpack.git",
+  "dependencies": {
+    "enhanced-resolve": "^0.9.1",
+    "webpack": "1.x"
+  },
+  "devDependencies": {
+    "expect.js": "0.x",
+    "mocha": "2.x",
+    "mocha-loader": "0.x",
+    "rewire": "^2.5.0",
+    "webpack-dev-server": "1.x"
+  },
+  "scripts": {
+    "test": "webpack-dev-server --config ./test/webpack.config.js"
+  }
 }
