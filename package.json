@@ -22,15 +22,15 @@
   "repository": "git://github.com/jhnns/rewire-webpack.git",
   "license": "Unlicense",
   "dependencies": {
-    "enhanced-resolve": "^0.9.1",
-    "webpack": "^1.12.6"
+    "enhanced-resolve": "^3.1.0",
+    "webpack": "^2.2.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^2.3.4",
-    "mocha-loader": "^0.7.1",
+    "mocha": "^3.2.0",
+    "mocha-loader": "^1.1.0",
     "rewire": "^2.5.0",
-    "webpack-dev-server": "^1.12.1"
+    "webpack-dev-server": "^2.3.0"
   },
   "scripts": {
     "test": "webpack-dev-server --config ./test/webpack.config.js"

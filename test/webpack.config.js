@@ -1,7 +1,7 @@
 var RewirePlugin = require("../");
 
 module.exports = {
-    entry: "mocha!" + __dirname + "/webpack.test.js",
+    entry: "mocha-loader!" + __dirname + "/webpack.test.js",
     devtool: "eval",
     plugins: [
         new RewirePlugin()
